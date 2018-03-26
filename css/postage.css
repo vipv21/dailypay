@@ -1,0 +1,252 @@
+body,
+ul,
+li,
+dl,
+dd,
+dt,
+p,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    font-family: "微软雅黑"
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+/* header */
+
+.header {
+    max-width: 1920px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.headerCont {
+    margin: 0 auto;
+    height: 100%;
+    width: 1200px;
+}
+
+.headerCont .hC_left {
+    display: inline-block;
+    float: left;
+    width: 188px;
+    height: 39px;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+
+.headerCont .hC_right {
+    float: right;
+    height: 100%;
+}
+
+.headerCont .hC_right li {
+    float: left;
+    line-height: 78px;
+    width: 90px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.headerCont .hC_right a {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.headerCont .hC_right a:hover {
+    border-bottom: 4px solid #0E49D0;
+}
+
+/* main */
+
+.main {
+    width: 100%;
+}
+
+.main .mainTop {
+    height: 302px;
+    background: url('../images/b_postage.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.mainXia {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*资费*/
+
+.fee-header {
+    font-size: 16px;
+    color: #365669;
+    padding: 25px 0;
+}
+
+.small-banner {
+    background-color: #6699c6;
+    height: 180px;
+    background-image: url(/themes/home/default/images/fee.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.small-banner-about {
+    background-color: #6699c6;
+    height: 180px;
+    background-image: url(/themes/home/default/images/about.jpg );
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.list {
+    border: 1px solid #e1dfdf;
+    overflow: hidden;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 74px;
+}
+
+.list .list-header {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    width: auto;
+    display: block;
+}
+
+.list .col1,
+.list .col2,
+.list .col3,
+.list .col4 {
+    line-height: 35px;
+    float: left;
+    height: 35px;
+    text-align: center;
+}
+
+.list .col1 {
+    width: 18%;
+    border-right: 1px solid #e4e4e4;
+}
+
+.list .col2 {
+    width: 55%;
+    border-right: 1px solid #e4e4e4;
+}
+
+.list .col3 {
+    width: 12%;
+    border-right: 1px solid #e4e4e4;
+}
+
+.list .col4 {
+    width: 14%;
+}
+
+.list>ul {
+    border-top: 1px solid #e4e4e4;
+    overflow: hidden;
+    clear: both;
+}
+
+.list .list-header {
+    border-top: 1px solid #f4f4f4;
+}
+
+.list .list-header>li {
+    height: 40px;
+    line-height: 40px;
+}
+
+.page-content h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #019f6a;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+}
+
+.page-content h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #019f6a;
+    border-bottom: 1px dotted #ccc;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.page-content .node-content {
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.page-content .about {
+    padding: 20px 50px;
+}
+
+/* footer */
+
+.footer {
+    float: left;
+    width: 100%;
+    height: 98px;
+    background-color: #000;
+    color: #f6f6f6;
+    font-size: 12px;
+}
+
+.footerCont {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footerCont a {
+    color: #f6f6f6;
+    font-size: 12px;
+}
+
+.footerCont ul {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.footerContT li:nth-of-type(4) {
+    border-right: none;
+}
+
+.footerCont li {
+    float: left;
+    padding: 0 49px;
+    margin: 23px 0;
+    border-right: 1px solid #fff;
+}
+
+.footerCont li>a {
+    display: inline-block;
+}
+
+.footerContB a {
+    margin-left: 25px;
+}
